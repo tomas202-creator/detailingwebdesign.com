@@ -1,0 +1,361 @@
+---
+title: 'Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/landing.jpg'
+permalink: '/'
+tags: 'sitemap' # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/ we need to manually add the sitemap tag to this page (only).
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/local.css"/>
+    <link rel="stylesheet" href="/assets/css/critical.css"/>
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1350">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Effective and proven <span>Detailing Websites</span> help you win the market.</h1>
+            <p class="cs-text">
+                Custom-built, high-performance websites designed to convert, engage, and scale your detailing business.
+            </p>
+            <a href="" class="cs-button-solid">Get Started</a>
+            <p class="cs-text-small">
+                <span>+120%</span> average increase in booking requests
+            </p>
+            <div class="cs-ratings">
+                <div class="cs-stars">
+                    <img class="cs-star" loading="lazy" decoding="async" src="assets/svgs/star.svg" alt="star" width="12" height="12" aria-hidden="true">
+                    <img class="cs-star" loading="lazy" decoding="async" src="assets/svgs/star.svg" alt="star" width="12" height="12" aria-hidden="true">
+                    <img class="cs-star" loading="lazy" decoding="async" src="assets/svgs/star.svg" alt="star" width="12" height="12" aria-hidden="true">
+                    <img class="cs-star" loading="lazy" decoding="async" src="assets/svgs/star.svg" alt="star" width="12" height="12" aria-hidden="true">
+                    <img class="cs-star" loading="lazy" decoding="async" src="assets/svgs/star.svg" alt="star" width="12" height="12" aria-hidden="true">
+                </div>
+                <div class="cs-rating">
+                    <h3 class="cs-h3">100% 5 Star Google Reviews</h3>
+                </div>
+                <img class="cs-icon" loading="lazy" decoding="async" src="assets/svgs/google-logo.svg" alt="star" width="20" height="20">
+            </div>
+        </div>
+    </div>
+</section>
+                                
+                                
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-285">
+    
+    <div class="cs-container">
+        <div class="cs-content">
+            <p class="cs-topper">WHAT WE DO</p>
+            <h2 class="cs-title"> We help detailers get booked  out.</h2>
+            <div class="text-box">
+                <svg class="star" fill="#020a08" width="101px" height="101px" viewBox="0 0 512.00 512.00" xmlns="http://www.w3.org/2000/svg" stroke="#020a08" stroke-width="0.00512" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M471.99 334.43L336.06 256l135.93-78.43c7.66-4.42 10.28-14.2 5.86-21.86l-32.02-55.43c-4.42-7.65-14.21-10.28-21.87-5.86l-135.93 78.43V16c0-8.84-7.17-16-16.01-16h-64.04c-8.84 0-16.01 7.16-16.01 16v156.86L56.04 94.43c-7.66-4.42-17.45-1.79-21.87 5.86L2.15 155.71c-4.42 7.65-1.8 17.44 5.86 21.86L143.94 256 8.01 334.43c-7.66 4.42-10.28 14.21-5.86 21.86l32.02 55.43c4.42 7.65 14.21 10.27 21.87 5.86l135.93-78.43V496c0 8.84 7.17 16 16.01 16h64.04c8.84 0 16.01-7.16 16.01-16V339.14l135.93 78.43c7.66 4.42 17.45 1.8 21.87-5.86l32.02-55.43c4.42-7.65 1.8-17.43-5.86-21.85z"></path></g></svg>
+                <p class="cs-text">
+                    We specialize in building high-performing websites exclusively for car detailers. Whether you run a mobile detailing service or a high-end ceramic coating studio, we help you get found online, convert more visitors, and make your brand look just as premium as your work. Everything line of code is hand-coded, fast, and focused on getting you more clients.<br> 
+                    <a class="cs-button-solid" href="/blogi">LEARN MORE<svg class="arrow-button" width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 12H19M5 12L11 6M5 12L11 18" stroke="#fafefd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></a>
+
+                </p>
+            </div>
+
+        </div>
+        <ul class="cs-card-group"  >
+            <li class="cs-item" >
+                <div class="cs-link" data-aos="fade-up"  data-aos-delay="0" data-aos-duration="600">
+                    <picture class="cs-picture">
+                        <img class="cs-icon" src="assets/images/Mobile apps-bro.svg" loading="lazy" decoding="async" alt="icon" width="38" height="52" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Mobile-First Design</h3>
+                    <p class="cs-item-text">
+                        80% of customers see your website on mobile. If it’s not fast, lean and optimized on there, you’re losing leads daily. Our mobile-first approach means we start building your site for mobile devices first with no bloated waste.</p>
+                </div>
+            </li>
+            
+            <li class="cs-item" >
+                <div class="cs-link" data-aos="fade-up"  data-aos-delay="100" data-aos-duration="600">
+                    <picture class="cs-picture">
+                        <img class="cs-icon" src="assets/images/Responsive-bro.svg" loading="lazy" decoding="async" alt="icon" width="38" height="52" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Built to Convert</h3>
+                    <p class="cs-item-text">
+                        Whats's the point of good looking website, if it doesn't get you clients? We design with purpose. Clear call-to-actions, trust-building elements, persuasive copy, and a buyer journey tailored for one goal: more quality bookings.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-link" data-aos="fade-up"  data-aos-delay="200" data-aos-duration="600">
+                    <picture class="cs-picture">
+                        <img class="cs-icon" src="assets/images/Fast loading-bro.svg" loading="lazy" decoding="async" alt="icon" width="38" height="52" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Optimazed page speed</h3>
+                    <p class="cs-item-text">
+                        60% kogu internetiliiklusest toimub telefonidel, seega optimeerime mobiilversiooni, et see nõitaks parimaid tulemusi otsingumootorites.                    
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    <section id="sbs">
+        <div class="cs-container">
+            <!-- Left Image Section -->
+            <div class="cs-left">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
+                </picture>
+            </div>
+            <!-- Right Content Section-->
+            <div class="cs-right">
+                <span class="cs-topper">About Us</span>
+                <h2 class="cs-title">About Company Title</h2>
+                <p class="cs-text">
+                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+                </p>
+                <p class="cs-text">
+                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+                </p>
+                <div class="cs-flex-group">
+                    <p class="cs-flex-p">
+                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+                    </p>
+                    <span class="cs-name">Justin Time</span>
+                    <span class="cs-job">CEO-Founder</span>
+                    <img 
+                    class="cs-quote-icon"
+                    loading="lazy"
+                    decoding="async"
+                    src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+                    alt="gavel"
+                    width="136"
+                    height="77"/>
+                </div>
+                <a href="/about" class="cs-button-solid">More About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--            Extra Content To Rank             -->
+    <!-- ============================================ -->
+
+    <section id="sbs-r">
+        <div class="cs-container">
+            <!-- Left Image Section -->
+            <div class="cs-left">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="560">
+                </picture>
+            </div>
+            <!-- Right Content Section-->
+            <div class="cs-right">
+                <span class="cs-topper">SEO Ranking</span>
+                <h2 class="cs-title">Talk about a main service keyword</h2>
+                <p class="cs-text">
+                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+                </p>
+                <p class="cs-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos.
+                </p>
+                <a href="/blog" class="cs-button-solid">Read our Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery">
+        <div class="cs-container">
+            <span class="cs-topper">Our Portfolio</span>
+            <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
+            <div class="cs-image-group">
+                <!-- Row 1-->
+                <div class="cs-row cs-row-1">
+                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+                    <picture class="cs-picture cs-picture1">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port1-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port1.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port1.jpg" alt="new hallway" loading="lazy" width="400" height="560">
+                    </picture>
+                    <picture class="cs-picture cs-picture2">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port4-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port4.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port4.jpg" alt="new home construction" loading="lazy" width="400" height="560">
+                    </picture>
+                    <picture class="cs-picture cs-picture3">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port7-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port7.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port7.jpg" alt="building a new wall" loading="lazy" width="400" height="560">
+                    </picture>
+                </div>
+                <!-- Row 2 -->
+                <div class="cs-row cs-row-2">
+                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+                    <picture class="cs-picture cs-picture1">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port2-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port2.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port2.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
+                    </picture>
+                    <picture class="cs-picture cs-picture2">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port5-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port5.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port5.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
+                    </picture>
+                    <picture class="cs-picture cs-picture3">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port8-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port8.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port8.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
+                    </picture>
+                </div>
+                <!-- Row 3 -->
+                <div class="cs-row cs-row-3">
+                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+                    <picture class="cs-picture cs-picture1">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port3-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port3.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port3.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
+                    </picture>
+                    <picture class="cs-picture cs-picture2">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port6-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port6.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port6.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
+                    </picture>
+                    <picture class="cs-picture cs-picture3">
+                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port9-m.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port9.jpg">
+                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port9.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
+                    </picture>
+
+                </div>
+            </div>
+            <a href="/projects" class="cs-button-solid">View Full Gallery</a>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Reviews                    -->
+    <!-- ============================================ -->
+
+    <section id="reviews">
+        <div class="cs-container">
+            <span class="cs-topper">Our Reviews</span>
+            <h2 class="cs-title">Words From Our Customers</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+            </p>
+            <ul class="cs-card-group">
+                <!-- Review 1 -->
+                <li class="cs-item">
+                    <img
+                    class="cs-item-img"
+                    aria-hidden="true"
+                    loading="lazy"
+                    decoding="async"
+                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
+                    alt="profile picture"
+                    width="80"
+                    height="80"/>
+                    <p class="cs-item-p">
+                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                    </p>
+                    <span class="cs-reviewer">
+                        Jon Doe
+                        <span class="cs-desc">Homeowner</span>
+                    </span>
+                    <img
+                    class="cs-item-stars"
+                    aria-hidden="true"
+                    loading="lazy"
+                    decoding="async"
+                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+                    alt="stars"
+                    width="96"
+                    height="16"/>
+                </li>
+                <!-- Review 2 -->
+                <li class="cs-item">
+                    <img
+                    class="cs-item-img"
+                    aria-hidden="true"
+                    loading="lazy"
+                    decoding="async"
+                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
+                    alt="profile picture"
+                    width="80"
+                    height="80"/>
+                    <p class="cs-item-p">
+                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                    </p>
+                    <span class="cs-reviewer">
+                        Jane Doe
+                        <span class="cs-desc">Homeowner</span>
+                    </span>
+                    <img
+                    class="cs-item-stars"
+                    aria-hidden="true"
+                    loading="lazy"
+                    decoding="async"
+                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
+                    alt="stars"
+                    width="96"
+                    height="16"/>
+                </li>
+            </ul>
+            <a aria-label="read more reviews" href="/reviews" class="cs-button-solid">Our Reviews</a>
+        </div>
+    </section>
+
+    {% include 'components/cta.html' %}
+{% endblock %}
